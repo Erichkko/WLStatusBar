@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEAB97FB1D27ED1900114446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB97FA1D27ED1900114446 /* main.m */; };
+		FEAB97FE1D27ED1900114446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB97FD1D27ED1900114446 /* AppDelegate.m */; };
+		FEAB98011D27ED1900114446 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB98001D27ED1900114446 /* ViewController.m */; };
+		FEAB98041D27ED1900114446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAB98021D27ED1900114446 /* Main.storyboard */; };
+		FEAB98061D27ED1900114446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAB98051D27ED1900114446 /* Assets.xcassets */; };
+		FEAB98091D27ED1900114446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAB98071D27ED1900114446 /* LaunchScreen.storyboard */; };
+		FEAB98141D27ED9200114446 /* WLStatusBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEAB98111D27ED9200114446 /* WLStatusBar.bundle */; };
+		FEAB98151D27ED9200114446 /* WLStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB98131D27ED9200114446 /* WLStatusBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEAB97F61D27ED1900114446 /* WLStatusBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLStatusBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB97FA1D27ED1900114446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEAB97FC1D27ED1900114446 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEAB97FD1D27ED1900114446 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEAB97FF1D27ED1900114446 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEAB98001D27ED1900114446 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEAB98031D27ED1900114446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEAB98051D27ED1900114446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEAB98081D27ED1900114446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEAB980A1D27ED1900114446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAB98111D27ED9200114446 /* WLStatusBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WLStatusBar.bundle; sourceTree = "<group>"; };
+		FEAB98121D27ED9200114446 /* WLStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLStatusBar.h; sourceTree = "<group>"; };
+		FEAB98131D27ED9200114446 /* WLStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLStatusBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEAB97F31D27ED1900114446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAB97ED1D27ED1900114446 = {
+			isa = PBXGroup;
+			children = (
+				FEAB97F81D27ED1900114446 /* WLStatusBarDemo */,
+				FEAB97F71D27ED1900114446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEAB97F71D27ED1900114446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB97F61D27ED1900114446 /* WLStatusBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAB97F81D27ED1900114446 /* WLStatusBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB98101D27ED9200114446 /* WLStatusBar */,
+				FEAB97FC1D27ED1900114446 /* AppDelegate.h */,
+				FEAB97FD1D27ED1900114446 /* AppDelegate.m */,
+				FEAB97FF1D27ED1900114446 /* ViewController.h */,
+				FEAB98001D27ED1900114446 /* ViewController.m */,
+				FEAB98021D27ED1900114446 /* Main.storyboard */,
+				FEAB98051D27ED1900114446 /* Assets.xcassets */,
+				FEAB98071D27ED1900114446 /* LaunchScreen.storyboard */,
+				FEAB980A1D27ED1900114446 /* Info.plist */,
+				FEAB97F91D27ED1900114446 /* Supporting Files */,
+			);
+			path = WLStatusBarDemo;
+			sourceTree = "<group>";
+		};
+		FEAB97F91D27ED1900114446 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB97FA1D27ED1900114446 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEAB98101D27ED9200114446 /* WLStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB98111D27ED9200114446 /* WLStatusBar.bundle */,
+				FEAB98121D27ED9200114446 /* WLStatusBar.h */,
+				FEAB98131D27ED9200114446 /* WLStatusBar.m */,
+			);
+			name = WLStatusBar;
+			path = ../../WLStatusBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEAB97F51D27ED1900114446 /* WLStatusBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB980D1D27ED1900114446 /* Build configuration list for PBXNativeTarget "WLStatusBarDemo" */;
+			buildPhases = (
+				FEAB97F21D27ED1900114446 /* Sources */,
+				FEAB97F31D27ED1900114446 /* Frameworks */,
+				FEAB97F41D27ED1900114446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLStatusBarDemo;
+			productName = WLStatusBarDemo;
+			productReference = FEAB97F61D27ED1900114446 /* WLStatusBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEAB97EE1D27ED1900114446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wanglong;
+				TargetAttributes = {
+					FEAB97F51D27ED1900114446 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PE8RT9TWB9;
+					};
+				};
+			};
+			buildConfigurationList = FEAB97F11D27ED1900114446 /* Build configuration list for PBXProject "WLStatusBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEAB97ED1D27ED1900114446;
+			productRefGroup = FEAB97F71D27ED1900114446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAB97F51D27ED1900114446 /* WLStatusBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEAB97F41D27ED1900114446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB98091D27ED1900114446 /* LaunchScreen.storyboard in Resources */,
+				FEAB98061D27ED1900114446 /* Assets.xcassets in Resources */,
+				FEAB98141D27ED9200114446 /* WLStatusBar.bundle in Resources */,
+				FEAB98041D27ED1900114446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEAB97F21D27ED1900114446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB98151D27ED9200114446 /* WLStatusBar.m in Sources */,
+				FEAB98011D27ED1900114446 /* ViewController.m in Sources */,
+				FEAB97FE1D27ED1900114446 /* AppDelegate.m in Sources */,
+				FEAB97FB1D27ED1900114446 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEAB98021D27ED1900114446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB98031D27ED1900114446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEAB98071D27ED1900114446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAB98081D27ED1900114446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEAB980B1D27ED1900114446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEAB980C1D27ED1900114446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEAB980E1D27ED1900114446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLStatusBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.WLStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEAB980F1D27ED1900114446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WLStatusBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mineline.WLStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEAB97F11D27ED1900114446 /* Build configuration list for PBXProject "WLStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB980B1D27ED1900114446 /* Debug */,
+				FEAB980C1D27ED1900114446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB980D1D27ED1900114446 /* Build configuration list for PBXNativeTarget "WLStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB980E1D27ED1900114446 /* Debug */,
+				FEAB980F1D27ED1900114446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEAB97EE1D27ED1900114446 /* Project object */;
+}
